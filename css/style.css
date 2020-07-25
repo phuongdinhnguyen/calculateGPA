@@ -51,10 +51,6 @@ input[type=number] {
     width: 100%;
 }
 
-.table-title{
-    display: inline;
-}
-
 .table-child{
     margin: 10px;
 }
