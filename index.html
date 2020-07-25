@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <title>Calculate GPA UwU</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Công cụ tính điểm GPA</h1>
+        <div class="main-table">
+            <div class="table-subject row" id="subject-1">
+                <div class="input-field col s6">
+                    <input id="subject-1-mon" type="text" class="validate">
+                    <label for="subject-1-mon">Môn thứ 1</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <input id="subject-1-heso" type="number" class="validate" step="0.1">
+                    <label for="subject-1-heso">Trọng số</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <input id="subject-1-qt" type="number" class="validate" step="0.1">
+                    <label for="subject-1-qt">Điểm quá trình</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <input id="subject-1-ck" type="number" class="validate" step="0.1">
+                    <label for="subject-1-ck">Điểm cuối kì</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <input id="subject-1-hp" type="number" class="validate" step="0.1">
+                    <label for="subject-1-hp">Số tín chỉ</label>
+                </div>
+
+                <div class="col s6">
+                    <p id="subject-1-score">Điểm môn này (thang 4):</p>
+                </div>
+            </div>
+        </div>
+
+        <button id="add" class="green darken-1 waves-effect waves-light btn">Thêm môn</button>
+        <button id="remove" class="light-blue accent-4 waves-effect waves-light btn">Xoá môn</button>
+        <button id="result" class="waves-effect waves-light btn">Tính!</button>
+
+        <p id="resultText">Kết quả:</p>
+    </div>
+    
+    <script src="/js/script.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js" crossorigin="anonymous"></script>
+</body>
+</html>

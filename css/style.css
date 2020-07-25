@@ -1,0 +1,60 @@
+/* some edit for browsers */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* -------------over edit*/
+
+*{
+    font-size: 24px;
+    color: white;
+    background-color: rgb(51, 48, 48)
+}
+
+.container{
+    margin: auto;
+}
+
+.btn{
+    margin: 5px;
+}
+
+.btn-add{
+    background-color: #4CAF50;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+.btn-remove{
+    background-color: rgb(196, 36, 36);
+}
+
+.btn-result{
+    background-color: rgb(36, 111, 196);
+}
+
+.table-subject{
+    border: darkgrey;
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px;
+    width: 100%;
+}
+
+.table-title{
+    display: inline;
+}
+
+.table-child{
+    margin: 10px;
+}
